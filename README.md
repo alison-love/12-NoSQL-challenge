@@ -10,7 +10,10 @@ Steps:
 - Import necessary libraries: PyMongo and Pretty Print (pprint)
 - Establish a connection to the MongoDB instance using the Mongo Client.
 - Import the establishments.json database file in terminal.
-## mongoimport --db uk_food --collection establishments --jsonArray --file establishments.json
+ 
+  <b>mongoimport --db uk_food --collection establishments --jsonArray --file establishments.json</b>
+
+  
 - Verify the successful creation of the database and the collection.
 
 
