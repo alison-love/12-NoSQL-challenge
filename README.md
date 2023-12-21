@@ -20,16 +20,14 @@ Steps:
 Part 2: Update the Database
 
 Objectives:
-Add New Restaurant: Insert a new restaurant "Penang Flavours" into the establishments collection.
-Update Business Type ID: Locate and update the BusinessTypeID for "Restaurant/Cafe/Canteen".
-Remove Establishments in Dover: Identify and delete establishments associated with the Dover Local Authority.
-Data Type Conversion: Convert latitude, longitude, and RatingValue to appropriate numeric types using update_many.
-Implementation:
-MongoDB queries and update operations to modify the database as per the magazine's requirements.
+- Add New Restaurant: Insert a new restaurant "Penang Flavours" into the establishments collection.
+- Update Business Type ID: Locate and update the BusinessTypeID for "Restaurant/Cafe/Canteen". Update "Panang Flavors" to reflect this business type.
+- Remove Establishments in Dover: Identify and delete establishments associated with the Dover Local Authority.
+- Data Type Conversion: Convert latitude, longitude, and RatingValue to appropriate numeric types using update_many.
 
 Part 3: Exploratory Analysis
 
-Analysis Goals:
+Objectives:
 - Hygiene Score Analysis: Identify establishments with a hygiene score of 20.
 - High-Rated London Establishments: Find establishments in London with a RatingValue of 4 or higher.
 - Top Establishments Near Penang Flavours: Determine the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, and close to "Penang Flavours".
