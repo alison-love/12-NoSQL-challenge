@@ -20,10 +20,10 @@ Steps:
 Part 2: Update the Database
 
 Objectives:
-- Add New Restaurant: Insert a new restaurant "Penang Flavours" into the establishments collection.
+- Insert a new restaurant "Penang Flavours" into the establishments collection.
 - Update Business Type ID: Locate and update the BusinessTypeID for "Restaurant/Cafe/Canteen". Update "Panang Flavors" to reflect this business type.
-- Remove Establishments in Dover: Identify and delete establishments associated with the Dover Local Authority.
-- Data Type Conversion: Convert latitude, longitude, and RatingValue to appropriate numeric types using update_many.
+- Identify and delete establishments associated with the Dover Local Authority.
+- Convert latitude, longitude, and RatingValue to appropriate numeric types using update_many.
 
 Part 3: Exploratory Analysis
 
@@ -38,7 +38,3 @@ Each analysis point involves querying the MongoDB database using PyMongo.
 Results are counted, displayed, and converted to Pandas DataFrames for further examination.
 Sorting, grouping, and aggregation are employed to derive meaningful insights.
 
-
-Conclusion
-
-This project demonstrates a comprehensive application of NoSQL databases (MongoDB) for data analysis, combined with Python scripting (PyMongo and Pandas) to extract, process, and present data-driven insights. The findings from this project will guide "Eat Safe, Love" in highlighting establishments based on their food hygiene ratings.
